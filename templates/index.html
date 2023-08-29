@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Translate PPT from English to Hindi</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+<h1>Translate PPT from English to Hindi</h1>
+<div class="container">
+  <div id="logbox">
+    <form id="uploadFileForTranslate" action="/translate" method="post" enctype="multipart/form-data">
+      <h2>UPLOAD PPT</h2>
+      <input class="input pass" name="File" type="file" placeholder="Select a file" accept=".ppt, .pptx" autofocus="autofocus" required="required"/>
+      <input class="inputButton" type="submit" value="Upload"/>
+    </form>
+  </div>
+</div>
+</body>
+</html>

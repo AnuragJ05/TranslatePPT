@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Download PPT</title>
+    <meta charset="UTF-8">
+    <title>Download PPT in Hindi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+    <h1>Download PowerPoint Presentation</h1>
+    <a href="{{ url_for('download_file') }}" download>Download PPT</a>
+</body>
+</html>
+ -->
+
+
+ <!DOCTYPE html>
+ <html>
+ 
+ <head>
+     <title>Download PPT</title>
+     <meta charset="UTF-8">
+     <title>Download PPT in Hindi</title>
+     <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+ </head>
+ 
+ <body>
+     <h1>Download Your Presentation From Here!! </h1>
+ 
+     <div class="container">
+         <div id="logbox">
+                 <a href="{{ url_for('download_file') }}" download class="fcc-btn">Download PPT</a>
+         </div>
+     </div>
+     <form id="index" action="/" method="post" enctype="multipart/form-data">
+        <input class="inputButton" type="submit" value="click here to translate more"/>
+      </form>
+ 
+ </body>
+ 
+ </html>
