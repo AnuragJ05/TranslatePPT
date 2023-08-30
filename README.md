@@ -1,7 +1,7 @@
 
-# Visiting Card QR Code Generator
+# English to Hindi PPT translator
 
-A English to Hindi PPT translator.
+A English to Hindi PPT translator using GPT4.
 
 ## Installation
 
